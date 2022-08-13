@@ -1,5 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
+const { obtenerMayor } = require("../../03-JS-II/homework/homework");
+
 // Crea una variable "string", puede contener lo que quieras:
 const nuevaString = 'null';
 
@@ -264,3 +266,7 @@ module.exports = {
   deEuroAdolar,
   esVocal,
 };
+
+
+console.log(obtenerMayor(32,4))
+
